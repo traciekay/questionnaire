@@ -10,25 +10,34 @@
   <body>
     <div class="container-fluid">
       <div class="col-md-12">
-        <h1>INTERNAL ORGANIZATIONAL STRATEGIES, MONITORING AND EVALUATION PRACTICES AND
+      <div class="row">
+        <h1>INTERNAL ORGANIZATIONAL STRATEGIES, MONITORING AND<br> EVALUATION PRACTICES AND
            IMPLEMENTATION OF CANCER PREVENTION AND CONTROL PROGRAMMES IN KISUMU COUNTY, KENYA</h1>
         <div class="col-md-6 col-md-offset-3">
-          <form>
+          <form class="form-horizontal">
             <div class="form-group">
-              <label for="interviewDate">Interview Date:</label>
-              <input type="date" class="form-control" id="interviewDate" placeholder="Interview Date">
+              <label class="control-label col-sm-4" for="interviewDate">Interview Date:</label>
+              <div class="col-sm-8">
+                <input type="date" class="form-control" id="interviewDate" placeholder="Interview Date">
+              </div>
             </div>
             <div class="form-group">
-              <label for="studyParticipantId">Study Participant ID:</label>
-              <input type="number" class="form-control" id="studyParticipantId" placeholder="Study Participant ID">
+              <label class="control-label col-sm-4" for="studyParticipantId">Study Participant ID:</label>
+              <div class="col-sm-8">
+                <input type="number" class="form-control" id="studyParticipantId" placeholder="Study Participant ID">
+              </div>
             </div>
             <div class="form-group">
-              <label for="nameOfSite">Name of site:</label>
-              <input type="text" class="form-control" id="nameOfSite" placeholder="Name of site">
+              <label class="control-label col-sm-4" for="nameOfSite">Name of site:</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="nameOfSite" placeholder="Name of site">
+              </div>
             </div>
             <div class="form-group">
-              <label for="interviewerCode">Interviewer Code: </label>
-              <input type="number" class="form-control" id="interviewerCode" placeholder="Interviewer Code">
+              <label class="control-label col-sm-4" for="interviewerCode">Interviewer Code: </label>
+              <div class="col-sm-8">
+                <input type="number" class="form-control" id="interviewerCode" placeholder="Interviewer Code">
+              </div>
             </div>
 
           </form>
@@ -39,6 +48,8 @@
         <p>This questionnaire is for administration to health facility
           administrators and healthcare workers at health facility level.</p>
 
+      </div>
+
 
           <div class="row">
               <div class="board">
@@ -46,35 +57,36 @@
                   <ul class="nav nav-tabs" id="myTab">
                   <div class="liner"></div>
                    <li class="active">
-                   <a href="#home" data-toggle="tab" title="welcome">
+                   <a href="#home" data-toggle="tab" title="Demographic Information">
                     <span class="round-tabs one">
                             <i class="glyphicon glyphicon-home"></i>
                     </span>
                 </a></li>
 
-                <li><a href="#profile" data-toggle="tab" title="profile">
+                <li><a href="#profile" data-toggle="tab" title="Infrastructure for Cancer Screening and Management">
                    <span class="round-tabs two">
                        <i class="glyphicon glyphicon-user"></i>
                    </span>
          </a>
                </li>
-               <li><a href="#messages" data-toggle="tab" title="bootsnipp goodies">
+               <li><a href="#messages" data-toggle="tab" title="Health Promotion Strategies">
                    <span class="round-tabs three">
                         <i class="glyphicon glyphicon-gift"></i>
                    </span> </a>
                    </li>
 
-                   <li><a href="#settings" data-toggle="tab" title="blah blah">
+                   <li><a href="#settings" data-toggle="tab" title="Human Capacity to Screen and Manage Cancer">
                        <span class="round-tabs four">
                             <i class="glyphicon glyphicon-comment"></i>
                        </span>
                    </a></li>
 
-                   <li><a href="#doner" data-toggle="tab" title="completed">
+                   <li><a href="#doner" data-toggle="tab" title="Collaboration for Cancer Prevention and Control">
                        <span class="round-tabs five">
                             <i class="glyphicon glyphicon-ok"></i>
                        </span> </a>
                    </li>
+                   
 
                    </ul></div>
 
@@ -83,22 +95,67 @@
 
                         <h3 class="head text-center">SECTION A: Demographic Information<sup></sup> <span style="color:#f48260;"></span></h3>
                         <p class="narrow text-center">
-                          <form>
+                          <form class="form-horizontal">
                             <div class="form-group">
-                              <label for="dob">When were you born?</label>
-                              <input type="date" class="form-control" id="dob" placeholder="Date of Birth">
+                              <label class="control-label col-sm-4" for="dob" >When were you born?</label>
+                              <div class="col-sm-8">
+                                <input type="date" class="form-control" id="dob" placeholder="Date of Birth">
+                              </div>
                             </div>
                             <div class="form-group">
-                              <label for="studyParticipantId">Study Participant ID:</label>
-                              <input type="number" class="form-control" id="studyParticipantId" placeholder="Study Participant ID">
+                              <label class="control-label col-sm-4" for="educationLevel" >What is your highest level of education?</label>
+                              <div class="col-sm-8">
+                                <select class="form-control" id="educationLevel">
+                                  <option>Secondary education</option>
+                                  <option>Certificate</option>
+                                  <option>Diploma</option>
+                                  <option>Degree</option>
+                                  <option>Masters</option>
+                                  <option>PhD</option>
+                                </select>
+                              </div>
                             </div>
                             <div class="form-group">
-                              <label for="nameOfSite">Name of site:</label>
-                              <input type="text" class="form-control" id="nameOfSite" placeholder="Name of site">
+                              <label class="control-label col-sm-4" for="maritalStatus" >What is your marital status?</label>
+                              <div class="col-sm-8">
+                                <select class="form-control" id="educationLevel">
+                                  <option>Single</option>
+                                  <option>Married</option>
+                                  <option>Separated</option>
+                                  <option>Divorced</option>
+                                  <option>Widowed</option>
+                                  <option>Cohabiting</option>
+                                </select>
+                              </div>
                             </div>
                             <div class="form-group">
-                              <label for="interviewerCode">Interviewer Code: </label>
-                              <input type="number" class="form-control" id="interviewerCode" placeholder="Interviewer Code">
+                              <label class="control-label col-sm-4" for="areaOfSpecialization" >What is your area of specialization?</label>
+                              <div class="col-sm-8">
+                                <select class="form-control" id="areaOfSpecialization">
+                                  <option>Nursing</option>
+                                  <option>Clinical medicine & surgery</option>
+                                  <option>Community health</option>
+                                  <option>Nutrition</option>
+                                  <option>General practitioner</option>
+                                  <option>Gynecology</option>
+                                  <option>Other</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="control-label col-sm-4" for="yearsOfExperience" >How many years of experience do you have?</label>
+                              <div class="col-sm-8">
+                                <select class="form-control" id="yearsOfExperience">
+                                  <option><1</option>
+                                  <option>1</option>
+                                  <option>2-5</option>
+                                  <option>6-10</option>
+                                  <option>11-15</option>
+                                  <option>16-20</option>
+                                  <option>>20</option>
+                                  <option><1</option>
+                                </select>
+                              </div>
                             </div>
 
                           </form>
