@@ -230,3 +230,8 @@ h1:first-letter { text-transform: uppercase; }
 h1{
   text-align: center;
 }
+
+/*nav width*/
+.nav-tabs > li {
+    width: 14%;
+}
