@@ -236,7 +236,7 @@ h1{
 
 /*nav width*/
 .nav-tabs > li {
-    width: 14%;
+    width: 14% !important;
 }
 
 /*h3 styles*/
@@ -254,16 +254,3 @@ padding-top: 36px;
   font-family: 'Droid Serif', serif;
       font-size: large;
 }
-
-/*Send button styles*/
-/*#send {
-    background-color: #5cb85c;
-    /* border: 2px solid #5cb85c; */
-    /*color: #ffffff;
-}
-styles.css:180
-#send {
-    padding: 10px 40px;
-    margin: 20px 0;
-    border: 2px solid transparent;
-    border-radius: 25px;*/*/
