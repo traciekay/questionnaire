@@ -5,7 +5,7 @@
 
 $(document).ready(function(){
   $('a[title]').tooltip();
-});
+
 
 submitForms = function(){
     document.getElementById("section0").submit();
@@ -17,3 +17,4 @@ submitForms = function(){
     document.getElementById("sectionF").submit();
     document.getElementById("sectionG").submit();
 }
+});
