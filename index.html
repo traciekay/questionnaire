@@ -121,7 +121,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="educationLevel" >What is your highest level of education?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="educationLevel">
+                                    <select class="form-control" id="educationLevel" name="educationLevel">
                                       <option value="1">Secondary education 1</option>
                                       <option value="2">Certificate 2</option>
                                       <option value="3">Diploma 3</option>
@@ -134,7 +134,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="maritalStatus" >What is your marital status?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="educationLevel">
+                                    <select class="form-control" id="maritalStatus" name="maritalStatus">
                                       <option value="1">Single 1</option>
                                       <option value="2">Married 2</option>
                                       <option value="3">Separated 3</option>
@@ -147,7 +147,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="areaOfSpecialization" >What is your area of specialization?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="areaOfSpecialization">
+                                    <select class="form-control" id="areaOfSpecialization" name="areaOfSpecialization">
                                       <option value="1">Nursing 1</option>
                                       <option value="2">Clinical medicine & surgery 2</option>
                                       <option value="3">Community health 3</option>
@@ -161,7 +161,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="yearsOfExperience" >How many years of experience do you have?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="yearsOfExperience">
+                                    <select class="form-control" id="yearsOfExperience" name="yearsOfExperience">
                                       <option value="1"><1 1</option>
                                       <option value="2">1 2</option>
                                       <option value="3">2-5 3</option>
@@ -188,7 +188,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="typeOfCancer" >What types of cancers are managed from your facility?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="typeOfCancer">
+                                    <select class="form-control" id="typeOfCancer" name="typeOfCancer">
                                       <option value="1">Breast cancer 1</option>
                                       <option value="2">Cervical cancer 2</option>
                                       <option value="3">Prostate cancer 3</option>
@@ -199,7 +199,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="cancerFacilities" >What kind of cancer facilities does your institution offer?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="cancerFacilities">
+                                    <select class="form-control" id="cancerFacilities" name="cancerFacilities">
                                       <option value="1">Screening 1</option>
                                       <option value="2">Colposcopy 2</option>
                                       <option value="3">Cryotherapy 3</option>
@@ -231,7 +231,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="screeningMethods" >What kind of screening methods do you use?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="screeningMethods">
+                                    <select class="form-control" id="screeningMethods" name="screeningMethods">
                                       <option value="1">VIA   1</option>
                                       <option value="2">VILI   2</option>
                                       <option value="3">Cytology Conventional Pap smear   3</option>
@@ -249,7 +249,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="equipmentSource" >What is the source of the equipment used for cancer screening?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="equipmentSource">
+                                    <select class="form-control" id="equipmentSource" name="equipmentSource">
                                       <option value="1">Government  1</option>
                                       <option value="2">Hospital funds  2</option>
                                       <option value="3">Hospital partners/collaborators  3</option>
@@ -263,7 +263,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="roomsAllocated" >Do you have room(s) allocated specifically for the following cancer patient services?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="roomsAllocated">
+                                    <select class="form-control" id="roomsAllocated" name="roomsAllocated">
                                       <option value="1">Screening   1</option>
                                       <option value="2">Treatment   2</option>
                                       <option value="3">Counselling   3</option>
@@ -276,7 +276,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="drugsStock" >Does your facility stock drugs for the following cancer patient care?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="drugsStock">
+                                    <select class="form-control" id="drugsStock" name="drugsStock">
                                       <option value="1">Treatment 1</option>
                                       <option value="2">Palliative care   2</option>
                                     </select>
@@ -286,7 +286,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="drugsSource" >What is the source of the drugs?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="drugsSource">
+                                    <select class="form-control" id="drugsSource" name="drugsSource">
                                       <option value="1">Government  1</option>
                                       <option value="2">Hospital funds  2</option>
                                       <option value="3">Hospital partners/collaborators  3</option>
@@ -545,7 +545,7 @@
                                   <div class="form-group">
                                     <label class="control-label col-sm-4" for="communicateInformation" >How does the programme/facility communicate information on cancer to the public?(Mark all that apply)</label>
                                     <div class="col-sm-8">
-                                      <select multiple class="form-control" id="communicateInformation">
+                                      <select multiple class="form-control" id="communicateInformation" name="communicateInformation">
                                         <option value="1">One to one education at the facility   1</option>
                                         <option value="2">Group education at the facility   2</option>
                                         <option value="3">Community outreach programmes   3</option>
@@ -563,7 +563,7 @@
                                   <div class="form-group">
                                     <label class="control-label col-sm-4" for="communicationStrategies" >How are your communication strategies funded?(Mark all that apply)</label>
                                     <div class="col-sm-8">
-                                      <select multiple class="form-control" id="communicationStrategies">
+                                      <select multiple class="form-control" id="communicationStrategies" name="communicationStrategies">
                                         <option value="1">County Government  1</option>
                                         <option value="2">National Government  2</option>
                                         <option value="3">Hospital funds  3</option>
@@ -740,7 +740,7 @@
                                   <div class="form-group">
                                     <label class="control-label col-sm-4" for="specialTraining" >Do you have any special training in oncology?</label>
                                     <div class="col-sm-8">
-                                      <select class="form-control" id="specialTraining">
+                                      <select class="form-control" id="specialTraining" name="specialTraining">
                                         <option value="1">Yes   1</option>
                                         <option value="2">No   2</option>
                                       </select>
@@ -750,7 +750,7 @@
                                   <div class="form-group">
                                     <label class="control-label col-sm-4" for="trainingLevel" >What was the level of the training</label>
                                     <div class="col-sm-8">
-                                      <select class="form-control" id="trainingLevel">
+                                      <select class="form-control" id="trainingLevel" name="trainingLevel">
                                         <option value="1">Short course/Certificate   1</option>
                                         <option value="2">Diploma   2</option>
                                         <option value="3">Degree   3</option>
@@ -771,7 +771,7 @@
                                   <div class="form-group">
                                     <label class="control-label col-sm-4" for="trainingDecision" >Why did you decide to get the training?</label>
                                     <div class="col-sm-8">
-                                      <select class="form-control" id="trainingDecision">
+                                      <select class="form-control" id="trainingDecision" name="trainingDecision">
                                         <option value="1">I was nominated by my institution 1</option>
                                         <option value="2">I had an interest in oncology  2</option>
                                         <option value="3">Other 3</option>
@@ -782,14 +782,14 @@
                                   <div class="form-group">
                                     <label class="control-label col-sm-4" for="trainingCost" >How much did the training cost?</label>
                                     <div class="col-sm-8">
-                                        <input type="number" name="trainingCost" value="" id="trainingCost">
+                                        <input type="number" name="trainingCost" value="" id="trainingCost" name="trainingCost">
                                     </div>
                                   </div>
 
                                   <div class="form-group">
                                     <label class="control-label col-sm-4" for="trainingSource" >Who met the cost of the training?</label>
                                     <div class="col-sm-8">
-                                      <select class="form-control" id="trainingSource">
+                                      <select class="form-control" id="trainingSource" name="trainingSource">
                                         <option value="1">Paid for it myself    1</option>
                                         <option value="2">Got a scholarship   2</option>
                                         <option value="3">Was sponsored by my institution   3</option>
@@ -1122,7 +1122,7 @@
                               <div class="form-group">
                                 <label class="control-label col-sm-4" for="facilityNetwork" >Does your facility/programme network with professionals from other organizations/facilities?</label>
                                 <div class="col-sm-8">
-                                  <select class="form-control" id="facilityNetwork">
+                                  <select class="form-control" id="facilityNetwork" name="facilityNetwork">
                                     <option value="1">Yes   1</option>
                                     <option value="2">No   2</option>
                                   </select>
@@ -1132,7 +1132,7 @@
                               <div class="form-group">
                                 <label class="control-label col-sm-4" for="collaborationNature" >How would you describe the nature of the collaboration?</label>
                                 <div class="col-sm-8">
-                                  <select class="form-control" id="collaborationNature">
+                                  <select class="form-control" id="collaborationNature" name="collaborationNature">
                                     <option value="1">Organize conferences to share information  1</option>
                                     <option value="2">Consult on patient management  2</option>
                                     <option value="3">Hold workshops together  3</option>
@@ -1145,7 +1145,7 @@
                               <div class="form-group">
                                 <label class="control-label col-sm-4" for="frequentlyNetwork" >How frequently do you network?</label>
                                 <div class="col-sm-8">
-                                  <select class="form-control" id="frequentlyNetwork">
+                                  <select class="form-control" id="frequentlyNetwork" name="frequentlyNetwork">
                                     <option value="1">Once a year  1</option>
                                     <option value="2">Twice a year  2</option>
                                     <option value="3">Every quarter  3</option>
@@ -1154,22 +1154,11 @@
                                 </div>
                               </div>
 
-                              <div class="form-group">
-                                <label class="control-label col-sm-4" for="frequentlyNetwork" >How frequently do you network?</label>
-                                <div class="col-sm-8">
-                                  <select class="form-control" id="frequentlyNetwork">
-                                    <option value="1">Once a year  1</option>
-                                    <option value="2">Twice a year  2</option>
-                                    <option value="3">Every quarter  3</option>
-                                    <option value="4">Whenever there is need  4</option>
-                                  </select>
-                                </div>
-                              </div>
 
                               <div class="form-group">
                                 <label class="control-label col-sm-4" for="organizationCollaborating" >What types of organizations/institutions do you collaborate with?</label>
                                 <div class="col-sm-8">
-                                  <select class="form-control" id="organizationCollaborating">
+                                  <select class="form-control" id="organizationCollaborating" name="organizationCollaborating">
                                     <option value="1">Other government health facilities  1</option>
                                     <option value="2">Private health institutions  2</option>
                                     <option value="3">Government research institutions  3</option>
@@ -1184,7 +1173,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="collaborationFunding" >Who funds the collaboration?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="collaborationFunding">
+                                    <select class="form-control" id="collaborationFunding" name="collaborationFunding">
                                       <option value="1">Health facility management  1</option>
                                       <option value="2">Other members of the network  2 </option>
                                       <option value="3">Cost sharing  3</option>
@@ -1196,7 +1185,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="experienceCases" >Do you experience cases requiring referral to other facilities?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="experienceCases">
+                                    <select class="form-control" id="experienceCases" name="experienceCases">
                                       <option value="1">Yes  1</option>
                                       <option value="2">No  2</option>
                                     </select>
@@ -1206,7 +1195,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="experienceFrequency" >How frequently do you experience such cases?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="experienceFrequency">
+                                    <select class="form-control" id="experienceFrequency" name="experienceFrequency">
                                       <option value="1">Every week  1</option>
                                       <option value="2">At least once every month  2</option>
                                       <option value="3">More than once month  3</option>
@@ -1218,7 +1207,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="facilitiesReferral" >To which facilities do you refer your patients?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="facilitiesReferral">
+                                    <select class="form-control" id="facilitiesReferral" name="facilitiesReferral">
                                       <option value="1">Kenyatta National Hospital  1</option>
                                       <option value="2">Moi Teaching & Referral Hospital   2</option>
                                       <option value="3">Jaramogi Odinga Teaching & Referral Hospital  3</option>
@@ -1232,7 +1221,7 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="servicesOffered" >What type of services do you mostly make referrals for?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="experienceFrequency">
+                                    <select class="form-control" id="servicesOffered" name="servicesOffered">
                                       <option value="1">Advanced screening  1</option>
                                       <option value="2">Diagnosis  2</option>
                                       <option value="3">Treatment  3</option>
