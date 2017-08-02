@@ -17,4 +17,8 @@ submitForms = function(){
     document.getElementById("sectionF").submit();
     document.getElementById("sectionG").submit();
 }
+$('#mainForm').on('submit', function(e){
+console.log($(this).serialize());
+e.preventDefault();
+})
 });
