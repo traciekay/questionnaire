@@ -135,12 +135,12 @@
                                   <label class="control-label col-sm-4" for="maritalStatus" >What is your marital status?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="maritalStatus" name="maritalStatus">
-                                      <option value="1">Single 1</option>
-                                      <option value="2">Married 2</option>
-                                      <option value="3">Separated 3</option>
-                                      <option value="4">Divorced 4</option>
-                                      <option value="5">Widowed 5</option>
-                                      <option value="6">Cohabiting 6</option>
+                                      <option value="1">Single</option>
+                                      <option value="2">Married</option>
+                                      <option value="3">Separated</option>
+                                      <option value="4">Divorced</option>
+                                      <option value="5">Widowed</option>
+                                      <option value="6">Cohabiting</option>
                                     </select>
                                   </div>
                                 </div>
@@ -148,28 +148,32 @@
                                   <label class="control-label col-sm-4" for="areaOfSpecialization" >What is your area of specialization?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="areaOfSpecialization" name="areaOfSpecialization">
-                                      <option value="1">Nursing 1</option>
-                                      <option value="2">Clinical medicine & surgery 2</option>
-                                      <option value="3">Community health 3</option>
-                                      <option value="4">Nutrition 4</option>
-                                      <option value="5">General practitioner 5</option>
-                                      <option value="6">Gynecology 6</option>
-                                      <option value="7">Other 7</option>
+                                      <option value="1">Nursing</option>
+                                      <option value="2">Clinical medicine & surgery</option>
+                                      <option value="3">Community health</option>
+                                      <option value="4">Nutrition</option>
+                                      <option value="5">General practitioner</option>
+                                      <option value="6">Gynecology</option>
+                                      <option value="7">Other</option>
                                     </select>
+                                    <div id="otherType" style="display:none;">
+                                      <label for="specify">Specify</label>
+                                      <input type="text" name="specializationOther" placeholder="Specify"/>
+                                    </div>
                                   </div>
                                 </div>
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="yearsOfExperience" >How many years of experience do you have?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="yearsOfExperience" name="yearsOfExperience">
-                                      <option value="1"><1 1</option>
-                                      <option value="2">1 2</option>
-                                      <option value="3">2-5 3</option>
-                                      <option value="4">6-10 4</option>
-                                      <option value="5">11-15 5</option>
-                                      <option value="6">16-20 6</option>
-                                      <option value="7">>20 7</option>
-                                      <option value="8"><1 8</option>
+                                      <option value="1"><1</option>
+                                      <option value="2">1 </option>
+                                      <option value="3">2-5 </option>
+                                      <option value="4">6-10 </option>
+                                      <option value="5">11-15 </option>
+                                      <option value="6">16-20 </option>
+                                      <option value="7">>20 </option>
+                                      <option value="8"><1 </option>
                                     </select>
                                   </div>
                                 </div>
@@ -189,10 +193,10 @@
                                   <label class="control-label col-sm-4" for="typeOfCancer" >What types of cancers are managed from your facility?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="typeOfCancer" name="typeOfCancer">
-                                      <option value="1">Breast cancer 1</option>
-                                      <option value="2">Cervical cancer 2</option>
-                                      <option value="3">Prostate cancer 3</option>
-                                      <option value="4">Other (Specify) 4</option>
+                                      <option value="1">Breast cancer </option>
+                                      <option value="2">Cervical cancer </option>
+                                      <option value="3">Prostate cancer </option>
+                                      <option value="4">Other (Specify)</option>
                                     </select>
                                   </div>
                                 </div>
@@ -200,15 +204,15 @@
                                   <label class="control-label col-sm-4" for="cancerFacilities" >What kind of cancer facilities does your institution offer?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="cancerFacilities" name="cancerFacilities">
-                                      <option value="1">Screening 1</option>
-                                      <option value="2">Colposcopy 2</option>
-                                      <option value="3">Cryotherapy 3</option>
-                                      <option value="4">Histology lab 4</option>
-                                      <option value="5">LEEP 5</option>
-                                      <option value="6">Training 6</option>
-                                      <option value="7">Cancer therapy 7</option>
-                                      <option value="8">Palliative care 8</option>
-                                      <option value="9">Other 9</option>
+                                      <option value="1">Screening </option>
+                                      <option value="2">Colposcopy </option>
+                                      <option value="3">Cryotherapy </option>
+                                      <option value="4">Histology lab </option>
+                                      <option value="5">LEEP </option>
+                                      <option value="6">Training </option>
+                                      <option value="7">Cancer therapy </option>
+                                      <option value="8">Palliative care </option>
+                                      <option value="9">Other </option>
                                     </select>
                                   </div>
                                 </div>
@@ -232,17 +236,17 @@
                                   <label class="control-label col-sm-4" for="screeningMethods" >What kind of screening methods do you use?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="screeningMethods" name="screeningMethods">
-                                      <option value="1">VIA   1</option>
-                                      <option value="2">VILI   2</option>
-                                      <option value="3">Cytology Conventional Pap smear   3</option>
-                                      <option value="4">HPV testing   4</option>
-                                      <option value="5">Clinical breast examination   5</option>
-                                      <option value="6">Mammography   6</option>
-                                      <option value="7">Ultrasound scanning   7</option>
-                                      <option value="8">Digital Rectal Examination   8</option>
-                                      <option value="9">Prostate Specific Antigen   9</option>
-                                      <option value="10">Trans-rectal ultra-sonography 10</option>
-                                      <option value="11">Other 11</option>
+                                      <option value="1">VIA   </option>
+                                      <option value="2">VILI  </option>
+                                      <option value="3">Cytology Conventional Pap smear</option>
+                                      <option value="4">HPV testing </option>
+                                      <option value="5">Clinical breast examination </option>
+                                      <option value="6">Mammography</option>
+                                      <option value="7">Ultrasound scanning</option>
+                                      <option value="8">Digital Rectal Examination</option>
+                                      <option value="9">Prostate Specific Antigen</option>
+                                      <option value="10">Trans-rectal ultra-sonography</option>
+                                      <option value="11">Other</option>
                                     </select>
                                   </div>
                                 </div>
@@ -250,11 +254,11 @@
                                   <label class="control-label col-sm-4" for="equipmentSource" >What is the source of the equipment used for cancer screening?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="equipmentSource" name="equipmentSource">
-                                      <option value="1">Government  1</option>
-                                      <option value="2">Hospital funds  2</option>
-                                      <option value="3">Hospital partners/collaborators  3</option>
-                                      <option value="4">Other organization within Kenya  4</option>
-                                      <option value="5">Other organization outside Kenya  5</option>
+                                      <option value="1">Government</option>
+                                      <option value="2">Hospital funds</option>
+                                      <option value="3">Hospital partners/collaborators</option>
+                                      <option value="4">Other organization within Kenya </option>
+                                      <option value="5">Other organization outside Kenya </option>
                                       <option value="6">Other 6</option>
                                     </select>
                                   </div>
@@ -264,11 +268,11 @@
                                   <label class="control-label col-sm-4" for="roomsAllocated" >Do you have room(s) allocated specifically for the following cancer patient services?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="roomsAllocated" name="roomsAllocated">
-                                      <option value="1">Screening   1</option>
-                                      <option value="2">Treatment   2</option>
-                                      <option value="3">Counselling   3</option>
-                                      <option value="4">Palliative care   4</option>
-                                      <option value="5">No specific rooms allocated   5</option>
+                                      <option value="1">Screening  </option>
+                                      <option value="2">Treatment  </option>
+                                      <option value="3">Counselling </option>
+                                      <option value="4">Palliative care </option>
+                                      <option value="5">No specific rooms allocated </option>
                                     </select>
                                   </div>
                                 </div>
@@ -277,8 +281,8 @@
                                   <label class="control-label col-sm-4" for="drugsStock" >Does your facility stock drugs for the following cancer patient care?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="drugsStock" name="drugsStock">
-                                      <option value="1">Treatment 1</option>
-                                      <option value="2">Palliative care   2</option>
+                                      <option value="1">Treatment</option>
+                                      <option value="2">Palliative care</option>
                                     </select>
                                   </div>
                                 </div>
@@ -287,12 +291,12 @@
                                   <label class="control-label col-sm-4" for="drugsSource" >What is the source of the drugs?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="drugsSource" name="drugsSource">
-                                      <option value="1">Government  1</option>
-                                      <option value="2">Hospital funds  2</option>
-                                      <option value="3">Hospital partners/collaborators  3</option>
-                                      <option value="4">Other organization within Kenya  4</option>
-                                      <option value="5">Other organization outside Kenya  5</option>
-                                      <option value="6">Other 6</option>
+                                      <option value="1">Government </option>
+                                      <option value="2">Hospital funds </option>
+                                      <option value="3">Hospital partners/collaborators</option>
+                                      <option value="4">Other organization within Kenya </option>
+                                      <option value="5">Other organization outside Kenya </option>
+                                      <option value="6">Other</option>
                                     </select>
                                   </div>
                                 </div>
@@ -446,43 +450,43 @@
                                 </div>
 
                                 <div class="form-group">
-                                  <label class="control-label col-sm-4" for="PalliativeCareSupplies" >The facility sometimes runs out of supplies for palliative care</label>
+                                  <label class="control-label col-sm-4" for="palliativeCareSupplies" >The facility sometimes runs out of supplies for palliative care</label>
                                   <div class="col-sm-8">
                                     <label class="radio-inline">
-                                      <input type="radio" name="PalliativeCareSupplies" value="1">Strongly Agree
+                                      <input type="radio" name="palliativeCareSupplies" value="1">Strongly Agree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="PalliativeCareSupplies" value="2">Agree
+                                      <input type="radio" name="palliativeCareSupplies" value="2">Agree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="PalliativeCareSupplies" value="3">Neutral/no opinion
+                                      <input type="radio" name="palliativeCareSupplies" value="3">Neutral/no opinion
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="PalliativeCareSupplies" value="4">Disagree
+                                      <input type="radio" name="palliativeCareSupplies" value="4">Disagree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="PalliativeCareSupplies" value="5">Strongly Disagree
+                                      <input type="radio" name="palliativeCareSupplies" value="5">Strongly Disagree
                                     </label>
                                   </div>
                                 </div>
 
                                 <div class="form-group">
-                                  <label class="control-label col-sm-4" for="PalliativeCareSuppliesRuns" >The stock-outs run for more than a month</label>
+                                  <label class="control-label col-sm-4" for="palliativeCareSuppliesRuns" >The stock-outs run for more than a month</label>
                                   <div class="col-sm-8">
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="1">Strongly Agree
+                                      <input type="radio" name="palliativeCareSuppliesRuns" value="1">Strongly Agree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="2">Agree
+                                      <input type="radio" name="palliativeCareSuppliesRuns" value="2">Agree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="3">Neutral/no opinion
+                                      <input type="radio" name="palliativeCareSuppliesRuns" value="3">Neutral/no opinion
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="4">Disagree
+                                      <input type="radio" name="palliativeCareSuppliesRuns" value="4">Disagree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="5">Strongly Disagree
+                                      <input type="radio" name="palliativeCareSuppliesRuns" value="5">Strongly Disagree
                                     </label>
                                   </div>
                                 </div>
@@ -491,19 +495,19 @@
                                   <label class="control-label col-sm-4" for="supplyNeverRuns" >The facility never runs out of any supplies</label>
                                   <div class="col-sm-8">
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="1">Strongly Agree
+                                      <input type="radio" name="supplyNeverRuns" value="1">Strongly Agree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="2">Agree
+                                      <input type="radio" name="supplyNeverRuns" value="2">Agree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="3">Neutral/no opinion
+                                      <input type="radio" name="supplyNeverRuns" value="3">Neutral/no opinion
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="4">Disagree
+                                      <input type="radio" name="supplyNeverRuns" value="4">Disagree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="5">Strongly Disagree
+                                      <input type="radio" name="supplyNeverRuns" value="5">Strongly Disagree
                                     </label>
                                   </div>
                                 </div>
@@ -512,19 +516,19 @@
                                   <label class="control-label col-sm-4" for="cancerNeverRuns" >The facility never runs out of drugs for cancer management</label>
                                   <div class="col-sm-8">
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="1">Strongly Agree
+                                      <input type="radio" name="cancerNeverRuns" value="1">Strongly Agree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="2">Agree
+                                      <input type="radio" name="cancerNeverRuns" value="2">Agree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="3">Neutral/no opinion
+                                      <input type="radio" name="cancerNeverRuns" value="3">Neutral/no opinion
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="4">Disagree
+                                      <input type="radio" name="cancerNeverRuns" value="4">Disagree
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="5">Strongly Disagree
+                                      <input type="radio" name="cancerNeverRuns" value="5">Strongly Disagree
                                     </label>
                                   </div>
                                 </div>
@@ -546,16 +550,16 @@
                                     <label class="control-label col-sm-4" for="communicateInformation" >How does the programme/facility communicate information on cancer to the public?(Mark all that apply)</label>
                                     <div class="col-sm-8">
                                       <select multiple class="form-control" id="communicateInformation" name="communicateInformation">
-                                        <option value="1">One to one education at the facility   1</option>
-                                        <option value="2">Group education at the facility   2</option>
-                                        <option value="3">Community outreach programmes   3</option>
-                                        <option value="4">One to one at the community   4</option>
-                                        <option value="5">Group education at the community   5</option>
-                                        <option value="6">Mass media through radio   6</option>
-                                        <option value="7">Mass media through television   7</option>
-                                        <option value="8">Mass media through prints   8</option>
-                                        <option value="9">Use of social networks   9</option>
-                                        <option value="10">Mass media through radio   10</option>
+                                        <option value="1">One to one education at the facility  </option>
+                                        <option value="2">Group education at the facility   </option>
+                                        <option value="3">Community outreach programmes   </option>
+                                        <option value="4">One to one at the community   </option>
+                                        <option value="5">Group education at the community   </option>
+                                        <option value="6">Mass media through radio   </option>
+                                        <option value="7">Mass media through television   </option>
+                                        <option value="8">Mass media through prints   </option>
+                                        <option value="9">Use of social networks   </option>
+                                        <option value="10">Mass media through radio   </option>
                                       </select>
                                     </div>
                                   </div>
@@ -564,13 +568,13 @@
                                     <label class="control-label col-sm-4" for="communicationStrategies" >How are your communication strategies funded?(Mark all that apply)</label>
                                     <div class="col-sm-8">
                                       <select multiple class="form-control" id="communicationStrategies" name="communicationStrategies">
-                                        <option value="1">County Government  1</option>
-                                        <option value="2">National Government  2</option>
-                                        <option value="3">Hospital funds  3</option>
-                                        <option value="4">Hospital partners/collaborators  4 </option>
-                                        <option value="4">Other organization within Kenya  4</option>
-                                        <option value="6">Other organization outside Kenya  5</option>
-                                        <option value="6">Other 6</option>
+                                        <option value="1">County Government  </option>
+                                        <option value="2">National Government  </option>
+                                        <option value="3">Hospital funds  </option>
+                                        <option value="4">Hospital partners/collaborators   </option>
+                                        <option value="4">Other organization within Kenya  </option>
+                                        <option value="6">Other organization outside Kenya  </option>
+                                        <option value="6">Other </option>
                                       </select>
                                     </div>
                                   </div>
@@ -580,13 +584,13 @@
                                     <label class="control-label col-sm-4" for="awareCreationSigns" >Awareness creation on cancer early warning signs</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">frequently used
+                                        <input type="radio" name="awareCreationSigns" value="1">frequently used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">rarely used
+                                        <input type="radio" name="awareCreationSigns" value="2">rarely used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">not used
+                                        <input type="radio" name="awareCreationSigns" value="3">not used
                                       </label>
                                     </div>
                                   </div>
@@ -595,13 +599,13 @@
                                     <label class="control-label col-sm-4" for="outreachProgrammes" >Outreach programmes for cancer screening</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">frequently used
+                                        <input type="radio" name="outreachProgrammes" value="1">frequently used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">rarely used
+                                        <input type="radio" name="outreachProgrammes" value="2">rarely used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">not used
+                                        <input type="radio" name="outreachProgrammes" value="3">not used
                                       </label>
                                     </div>
                                   </div>
@@ -610,13 +614,13 @@
                                     <label class="control-label col-sm-4" for="communityAwareness" >Community sensitization for mass cancer screening</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">frequently used
+                                        <input type="radio" name="communityAwareness" value="1">frequently used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">rarely used
+                                        <input type="radio" name="communityAwareness" value="2">rarely used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">not used
+                                        <input type="radio" name="communityAwareness" value="3">not used
                                       </label>
                                     </div>
                                   </div>
@@ -625,13 +629,13 @@
                                     <label class="control-label col-sm-4" for="sensitizationOfTargeted" >Sensitization of targeted groups for cancer screening</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">frequently used
+                                        <input type="radio" name="sensitizationOfTargeted" value="1">frequently used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">rarely used
+                                        <input type="radio" name="sensitizationOfTargeted" value="2">rarely used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">not used
+                                        <input type="radio" name="sensitizationOfTargeted" value="3">not used
                                       </label>
                                     </div>
                                   </div>
@@ -640,13 +644,13 @@
                                     <label class="control-label col-sm-4" for="cancerAmbassadors" >Cancer ambassadors for evidence based messaging</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">frequently used
+                                        <input type="radio" name="cancerAmbassadors" value="1">frequently used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">rarely used
+                                        <input type="radio" name="cancerAmbassadors" value="2">rarely used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">not used
+                                        <input type="radio" name="cancerAmbassadors" value="3">not used
                                       </label>
                                     </div>
                                   </div>
@@ -655,13 +659,13 @@
                                     <label class="control-label col-sm-4" for="behaviourChange" >Behaviour change communication</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">frequently used
+                                        <input type="radio" name="behaviourChange" value="1">frequently used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">rarely used
+                                        <input type="radio" name="behaviourChange" value="2">rarely used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">not used
+                                        <input type="radio" name="behaviourChange" value="3">not used
                                       </label>
                                     </div>
                                   </div>
@@ -670,13 +674,13 @@
                                     <label class="control-label col-sm-4" for="intensifyingActivities" >Intensifying activities in October (breast cancer month)</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">frequently used
+                                        <input type="radio" name="intensifyingActivities" value="1">frequently used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">rarely used
+                                        <input type="radio" name="intensifyingActivities" value="2">rarely used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">not used
+                                        <input type="radio" name="intensifyingActivities" value="3">not used
                                       </label>
                                     </div>
                                   </div>
@@ -685,13 +689,13 @@
                                     <label class="control-label col-sm-4" for="advocacyLevels" >Advocacy at all levels in the society</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">frequently used
+                                        <input type="radio" name="advocacyLevels" value="1">frequently used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">rarely used
+                                        <input type="radio" name="advocacyLevels" value="2">rarely used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">not used
+                                        <input type="radio" name="advocacyLevels" value="3">not used
                                       </label>
                                     </div>
                                   </div>
@@ -700,13 +704,13 @@
                                     <label class="control-label col-sm-4" for="workshopTargets" >Workshops targeting opinion leaders</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">frequently used
+                                        <input type="radio" name="workshopTargets" value="1">frequently used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">rarely used
+                                        <input type="radio" name="workshopTargets" value="2">rarely used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">not used
+                                        <input type="radio" name="workshopTargets" value="3">not used
                                       </label>
                                     </div>
                                   </div>
@@ -715,13 +719,13 @@
                                     <label class="control-label col-sm-4" for="communityDialogues" >Community dialogues for service improvement</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">frequently used
+                                        <input type="radio" name="communityDialogues" value="1">frequently used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">rarely used
+                                        <input type="radio" name="communityDialogues" value="2">rarely used
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">not used
+                                        <input type="radio" name="communityDialogues" value="3">not used
                                       </label>
                                     </div>
                                   </div>
@@ -741,8 +745,8 @@
                                     <label class="control-label col-sm-4" for="specialTraining" >Do you have any special training in oncology?</label>
                                     <div class="col-sm-8">
                                       <select class="form-control" id="specialTraining" name="specialTraining">
-                                        <option value="1">Yes   1</option>
-                                        <option value="2">No   2</option>
+                                        <option value="1">Yes </option>
+                                        <option value="2">No </option>
                                       </select>
                                     </div>
                                   </div>
@@ -751,12 +755,12 @@
                                     <label class="control-label col-sm-4" for="trainingLevel" >What was the level of the training</label>
                                     <div class="col-sm-8">
                                       <select class="form-control" id="trainingLevel" name="trainingLevel">
-                                        <option value="1">Short course/Certificate   1</option>
-                                        <option value="2">Diploma   2</option>
-                                        <option value="3">Degree   3</option>
-                                        <option value="4">Post-graduate Diploma   4</option>
-                                        <option value="5">Masters   5</option>
-                                        <option value="6">PhD   6</option>
+                                        <option value="1">Short course/Certificate </option>
+                                        <option value="2">Diploma  </option>
+                                        <option value="3">Degree  </option>
+                                        <option value="4">Post-graduate Diploma  </option>
+                                        <option value="5">Masters   </option>
+                                        <option value="6">PhD   </option>
                                       </select>
                                     </div>
                                   </div>
@@ -772,9 +776,9 @@
                                     <label class="control-label col-sm-4" for="trainingDecision" >Why did you decide to get the training?</label>
                                     <div class="col-sm-8">
                                       <select class="form-control" id="trainingDecision" name="trainingDecision">
-                                        <option value="1">I was nominated by my institution 1</option>
-                                        <option value="2">I had an interest in oncology  2</option>
-                                        <option value="3">Other 3</option>
+                                        <option value="1">I was nominated by my institution </option>
+                                        <option value="2">I had an interest in oncology  </option>
+                                        <option value="3">Other </option>
                                       </select>
                                     </div>
                                   </div>
@@ -790,10 +794,10 @@
                                     <label class="control-label col-sm-4" for="trainingSource" >Who met the cost of the training?</label>
                                     <div class="col-sm-8">
                                       <select class="form-control" id="trainingSource" name="trainingSource">
-                                        <option value="1">Paid for it myself    1</option>
-                                        <option value="2">Got a scholarship   2</option>
-                                        <option value="3">Was sponsored by my institution   3</option>
-                                        <option value="4">Sponsored by government   4</option>
+                                        <option value="1">Paid for it myself    </option>
+                                        <option value="2">Got a scholarship   </option>
+                                        <option value="3">Was sponsored by my institution   </option>
+                                        <option value="4">Sponsored by government   </option>
                                       </select>
                                     </div>
                                   </div>
@@ -803,13 +807,13 @@
                                     <label class="control-label col-sm-4" for="continuousProgramme" >Your institution/programme carries out continuous medical education focusing on cancer, to its staff</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Frequently
+                                        <input type="radio" name="continuousProgramme" value="1">Frequently
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Rarely
+                                        <input type="radio" name="continuousProgramme" value="2">Rarely
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Never
+                                        <input type="radio" name="continuousProgramme" value="3">Never
                                       </label>
                                     </div>
                                   </div>
@@ -818,13 +822,13 @@
                                     <label class="control-label col-sm-4" for="assessmentProgram" >Your institution/programme carries out assessment to identify gaps in employee skills in handling cancer activities</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Frequently
+                                        <input type="radio" name="assessmentProgram" value="1">Frequently
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Rarely
+                                        <input type="radio" name="assessmentProgram" value="2">Rarely
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Never
+                                        <input type="radio" name="assessmentProgram" value="3">Never
                                       </label>
                                     </div>
                                   </div>
@@ -833,13 +837,13 @@
                                     <label class="control-label col-sm-4" for="financialSupport" >Your institution/programme financially supports its staff for refresher trainings on cancer</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Frequently
+                                        <input type="radio" name="financialSupport" value="1">Frequently
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Rarely
+                                        <input type="radio" name="financialSupport" value="2">Rarely
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Never
+                                        <input type="radio" name="financialSupport" value="3">Never
                                       </label>
                                     </div>
                                   </div>
@@ -848,13 +852,13 @@
                                     <label class="control-label col-sm-4" for="staffFinancialSupport" >Your institution/programme financially supports its staff for workshops to update knowledge on cancer</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Frequently
+                                        <input type="radio" name="staffFinancialSupport" value="1">Frequently
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Rarely
+                                        <input type="radio" name="staffFinancialSupport" value="2">Rarely
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Never
+                                        <input type="radio" name="staffFinancialSupport" value="3">Never
                                       </label>
                                     </div>
                                   </div>
@@ -863,13 +867,13 @@
                                     <label class="control-label col-sm-4" for="communityVolunteers" >Your institution/programme trains community volunteers on community-based palliative care </label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Frequently
+                                        <input type="radio" name="communityVolunteers" value="1">Frequently
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Rarely
+                                        <input type="radio" name="communityVolunteers" value="2">Rarely
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Never
+                                        <input type="radio" name="communityVolunteers" value="3">Never
                                       </label>
                                     </div>
                                   </div>
@@ -878,13 +882,13 @@
                                     <label class="control-label col-sm-4" for="specializedSupport" >Your institution/programme financially supports specialized training for phisicians, gynaecologists, radiologists, on cancer</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Frequently
+                                        <input type="radio" name="specializedSupport" value="1">Frequently
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Rarely
+                                        <input type="radio" name="specializedSupport" value="2">Rarely
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Never
+                                        <input type="radio" name="specializedSupport" value="3">Never
                                       </label>
                                     </div>
                                   </div>
@@ -893,13 +897,13 @@
                                     <label class="control-label col-sm-4" for="supportSupervision" >The County health management provides support supervision for cancer activities </label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Frequently
+                                        <input type="radio" name="supportSupervision" value="1">Frequently
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Rarely
+                                        <input type="radio" name="supportSupervision" value="2">Rarely
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Never
+                                        <input type="radio" name="supportSupervision" value="3">Never
                                       </label>
                                     </div>
                                   </div>
@@ -908,13 +912,13 @@
                                     <label class="control-label col-sm-4" for="countyRepresentative" >The County reproductive health unit provides on-job certification for cancer service provision</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Frequently
+                                        <input type="radio" name="countyRepresentative" value="1">Frequently
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Rarely
+                                        <input type="radio" name="countyRepresentative" value="2">Rarely
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Never
+                                        <input type="radio" name="countyRepresentative" value="3">Never
                                       </label>
                                     </div>
                                   </div>
@@ -923,13 +927,13 @@
                                     <label class="control-label col-sm-4" for="monitorsPerformance" >Your institution/programme monitors and keeps track of staff performance</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Frequently
+                                        <input type="radio" name="monitorsPerformance" value="1">Frequently
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Rarely
+                                        <input type="radio" name="monitorsPerformance" value="2">Rarely
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Never
+                                        <input type="radio" name="monitorsPerformance" value="3">Never
                                       </label>
                                     </div>
                                   </div>
@@ -938,13 +942,13 @@
                                     <label class="control-label col-sm-4" for="trainingRecords" >Your institution/programme keeps all the records on trainings and capacity building initiatives on staff</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Frequently
+                                        <input type="radio" name="trainingRecords" value="1">Frequently
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Rarely
+                                        <input type="radio" name="trainingRecords" value="2">Rarely
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Never
+                                        <input type="radio" name="trainingRecords" value="3">Never
                                       </label>
                                     </div>
                                   </div>
@@ -955,13 +959,13 @@
                                     <label class="control-label col-sm-4" for="palpation" >Breast cancer screening by palpation</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Very Competent
+                                        <input type="radio" name="palpation" value="1">Very Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Somehow Competent
+                                        <input type="radio" name="palpation" value="2">Somehow Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Not Competent
+                                        <input type="radio" name="palpation" value="3">Not Competent
                                       </label>
                                     </div>
                                   </div>
@@ -970,13 +974,13 @@
                                     <label class="control-label col-sm-4" for="mamography" >Breast cancer screening by mamography</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Very Competent
+                                        <input type="radio" name="mamography" value="1">Very Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Somehow Competent
+                                        <input type="radio" name="mamography" value="2">Somehow Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Not Competent
+                                        <input type="radio" name="mamography" value="3">Not Competent
                                       </label>
                                     </div>
                                   </div>
@@ -985,13 +989,13 @@
                                     <label class="control-label col-sm-4" for="vili" >Cervical cancer screening by VILI</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Very Competent
+                                        <input type="radio" name="vili" value="1">Very Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Somehow Competent
+                                        <input type="radio" name="vili" value="2">Somehow Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Not Competent
+                                        <input type="radio" name="vili" value="3">Not Competent
                                       </label>
                                     </div>
                                   </div>
@@ -1000,13 +1004,13 @@
                                     <label class="control-label col-sm-4" for="via" >Cervical cancer screening by VIA</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Very Competent
+                                        <input type="radio" name="via" value="1">Very Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Somehow Competent
+                                        <input type="radio" name="via" value="2">Somehow Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Not Competent
+                                        <input type="radio" name="via" value="3">Not Competent
                                       </label>>
                                     </div>
                                   </div>
@@ -1015,13 +1019,13 @@
                                     <label class="control-label col-sm-4" for="papSmear" >Deep vaginal swab collection for pap smear tests</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Very Competent
+                                        <input type="radio" name="papSmear" value="1">Very Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Somehow Competent
+                                        <input type="radio" name="papSmear" value="2">Somehow Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Not Competent
+                                        <input type="radio" name="papSmear" value="3">Not Competent
                                       </label>
                                     </div>
                                   </div>
@@ -1030,13 +1034,13 @@
                                     <label class="control-label col-sm-4" for="palliativeCare" >Palliative care</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Very Competent
+                                        <input type="radio" name="palliativeCare" value="1">Very Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Somehow Competent
+                                        <input type="radio" name="palliativeCare" value="2">Somehow Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Not Competent
+                                        <input type="radio" name="palliativeCare" value="3">Not Competent
                                       </label>
                                     </div>
                                   </div>
@@ -1045,13 +1049,13 @@
                                     <label class="control-label col-sm-4" for="prostateCancer" >Detection of prostate cancer</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Very Competent
+                                        <input type="radio" name="prostateCancer" value="1">Very Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Somehow Competent
+                                        <input type="radio" name="prostateCancer" value="2">Somehow Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Not Competent
+                                        <input type="radio" name="prostateCancer" value="3">Not Competent
                                       </label>
                                     </div>
                                   </div>
@@ -1060,13 +1064,13 @@
                                     <label class="control-label col-sm-4" for="cervicalTreatment" >Treatment of cervical cancer</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Very Competent
+                                        <input type="radio" name="cervicalTreatment" value="1">Very Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Somehow Competent
+                                        <input type="radio" name="cervicalTreatment" value="2">Somehow Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Not Competent
+                                        <input type="radio" name="cervicalTreatment" value="3">Not Competent
                                       </label>
                                     </div>
                                   </div>
@@ -1075,13 +1079,13 @@
                                     <label class="control-label col-sm-4" for="breastTreatment" >Treatment of breast cancer</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Very Competent
+                                        <input type="radio" name="breastTreatment" value="1">Very Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Somehow Competent
+                                        <input type="radio" name="breastTreatment" value="2">Somehow Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Not Competent
+                                        <input type="radio" name="breastTreatment" value="3">Not Competent
                                       </label>
                                     </div>
                                   </div>
@@ -1090,13 +1094,13 @@
                                     <label class="control-label col-sm-4" for="prostateTreatment" >Treatment of prostate cancer</label>
                                     <div class="col-sm-8">
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="1">Very Competent
+                                        <input type="radio" name="prostateTreatment" value="1">Very Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="2">Somehow Competent
+                                        <input type="radio" name="prostateTreatment" value="2">Somehow Competent
                                       </label>
                                       <label class="radio-inline">
-                                        <input type="radio" name="optradio" value="3">Not Competent
+                                        <input type="radio" name="prostateTreatment" value="3">Not Competent
                                       </label>
                                     </div>
                                   </div>
@@ -1123,8 +1127,8 @@
                                 <label class="control-label col-sm-4" for="facilityNetwork" >Does your facility/programme network with professionals from other organizations/facilities?</label>
                                 <div class="col-sm-8">
                                   <select class="form-control" id="facilityNetwork" name="facilityNetwork">
-                                    <option value="1">Yes   1</option>
-                                    <option value="2">No   2</option>
+                                    <option value="1">Yes</option>
+                                    <option value="2">No </option>
                                   </select>
                                 </div>
                               </div>
@@ -1133,11 +1137,11 @@
                                 <label class="control-label col-sm-4" for="collaborationNature" >How would you describe the nature of the collaboration?</label>
                                 <div class="col-sm-8">
                                   <select class="form-control" id="collaborationNature" name="collaborationNature">
-                                    <option value="1">Organize conferences to share information  1</option>
-                                    <option value="2">Consult on patient management  2</option>
-                                    <option value="3">Hold workshops together  3</option>
-                                    <option value="4">Carry out researches together   4</option>
-                                    <option value="5">Other  5</option>
+                                    <option value="1">Organize conferences to share information  </option>
+                                    <option value="2">Consult on patient management  </option>
+                                    <option value="3">Hold workshops together  </option>
+                                    <option value="4">Carry out researches together   </option>
+                                    <option value="5">Other  </option>
                                   </select>
                                 </div>
                               </div>
@@ -1146,10 +1150,10 @@
                                 <label class="control-label col-sm-4" for="frequentlyNetwork" >How frequently do you network?</label>
                                 <div class="col-sm-8">
                                   <select class="form-control" id="frequentlyNetwork" name="frequentlyNetwork">
-                                    <option value="1">Once a year  1</option>
-                                    <option value="2">Twice a year  2</option>
-                                    <option value="3">Every quarter  3</option>
-                                    <option value="4">Whenever there is need  4</option>
+                                    <option value="1">Once a year  </option>
+                                    <option value="2">Twice a year  </option>
+                                    <option value="3">Every quarter  </option>
+                                    <option value="4">Whenever there is need  </option>
                                   </select>
                                 </div>
                               </div>
@@ -1159,13 +1163,13 @@
                                 <label class="control-label col-sm-4" for="organizationCollaborating" >What types of organizations/institutions do you collaborate with?</label>
                                 <div class="col-sm-8">
                                   <select class="form-control" id="organizationCollaborating" name="organizationCollaborating">
-                                    <option value="1">Other government health facilities  1</option>
-                                    <option value="2">Private health institutions  2</option>
-                                    <option value="3">Government research institutions  3</option>
-                                    <option value="4">Non-governmental research institutions  4</option>
-                                    <option value="5">Other organization within the country (non-research)  5</option>
-                                    <option value="6">Other organization outside the country (non-research)  6</option>
-                                    <option value="7">Other 7</option>
+                                    <option value="1">Other government health facilities  </option>
+                                    <option value="2">Private health institutions  </option>
+                                    <option value="3">Government research institutions  </option>
+                                    <option value="4">Non-governmental research institutions  </option>
+                                    <option value="5">Other organization within the country (non-research)  </option>
+                                    <option value="6">Other organization outside the country (non-research)  </option>
+                                    <option value="7">Other </option>
                                   </select>
                                 </div>
                               </div>
@@ -1174,10 +1178,10 @@
                                   <label class="control-label col-sm-4" for="collaborationFunding" >Who funds the collaboration?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="collaborationFunding" name="collaborationFunding">
-                                      <option value="1">Health facility management  1</option>
-                                      <option value="2">Other members of the network  2 </option>
-                                      <option value="3">Cost sharing  3</option>
-                                      <option value="4">Other organization not part of the network  4</option>
+                                      <option value="1">Health facility management  </option>
+                                      <option value="2">Other members of the network   </option>
+                                      <option value="3">Cost sharing  </option>
+                                      <option value="4">Other organization not part of the network  </option>
                                     </select>
                                   </div>
                                 </div>
@@ -1186,8 +1190,8 @@
                                   <label class="control-label col-sm-4" for="experienceCases" >Do you experience cases requiring referral to other facilities?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="experienceCases" name="experienceCases">
-                                      <option value="1">Yes  1</option>
-                                      <option value="2">No  2</option>
+                                      <option value="1">Yes  </option>
+                                      <option value="2">No  </option>
                                     </select>
                                   </div>
                                 </div>
@@ -1196,10 +1200,10 @@
                                   <label class="control-label col-sm-4" for="experienceFrequency" >How frequently do you experience such cases?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="experienceFrequency" name="experienceFrequency">
-                                      <option value="1">Every week  1</option>
-                                      <option value="2">At least once every month  2</option>
-                                      <option value="3">More than once month  3</option>
-                                      <option value="4">Once every 3 months  4</option>
+                                      <option value="1">Every week  </option>
+                                      <option value="2">At least once every month  </option>
+                                      <option value="3">More than once month  </option>
+                                      <option value="4">Once every 3 months  </option>
                                     </select>
                                   </div>
                                 </div>
@@ -1208,12 +1212,12 @@
                                   <label class="control-label col-sm-4" for="facilitiesReferral" >To which facilities do you refer your patients?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="facilitiesReferral" name="facilitiesReferral">
-                                      <option value="1">Kenyatta National Hospital  1</option>
-                                      <option value="2">Moi Teaching & Referral Hospital   2</option>
-                                      <option value="3">Jaramogi Odinga Teaching & Referral Hospital  3</option>
-                                      <option value="4">Agakhan Hospital Kisumu  4</option>
-                                      <option value="5">Agakhan Hospital Nairobi  5</option>
-                                      <option value="6">Other  6</option>
+                                      <option value="1">Kenyatta National Hospital  </option>
+                                      <option value="2">Moi Teaching & Referral Hospital   </option>
+                                      <option value="3">Jaramogi Odinga Teaching & Referral Hospital  </option>
+                                      <option value="4">Agakhan Hospital Kisumu  </option>
+                                      <option value="5">Agakhan Hospital Nairobi  </option>
+                                      <option value="6">Other  </option>
                                     </select>
                                   </div>
                                 </div>
@@ -1222,10 +1226,10 @@
                                   <label class="control-label col-sm-4" for="servicesOffered" >What type of services do you mostly make referrals for?</label>
                                   <div class="col-sm-8">
                                     <select class="form-control" id="servicesOffered" name="servicesOffered">
-                                      <option value="1">Advanced screening  1</option>
-                                      <option value="2">Diagnosis  2</option>
-                                      <option value="3">Treatment  3</option>
-                                      <option value="4">Palliative care  4</option>
+                                      <option value="1">Advanced screening  </option>
+                                      <option value="2">Diagnosis  </option>
+                                      <option value="3">Treatment  </option>
+                                      <option value="4">Palliative care  </option>
                                     </select>
                                   </div>
                                 </div>
@@ -1236,16 +1240,16 @@
                                   <label class="control-label col-sm-4" for="cancerAwareness" >Cancer awareness</label>
                                   <div class="col-sm-8">
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="1">Frequently
+                                      <input type="radio" name="cancerAwareness" value="1">Frequently
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="2">Sometimes
+                                      <input type="radio" name="cancerAwareness" value="2">Sometimes
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="3">Rarely
+                                      <input type="radio" name="cancerAwareness" value="3">Rarely
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="4">Never
+                                      <input type="radio" name="cancerAwareness" value="4">Never
                                     </label>
                                   </div>
                                 </div>
@@ -1254,16 +1258,16 @@
                                   <label class="control-label col-sm-4" for="cancerAdvocacy" >Cancer advocacy</label>
                                   <div class="col-sm-8">
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="1">Frequently
+                                      <input type="radio" name="cancerAdvocacy" value="1">Frequently
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="2">Sometimes
+                                      <input type="radio" name="cancerAdvocacy" value="2">Sometimes
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="3">Rarely
+                                      <input type="radio" name="cancerAdvocacy" value="3">Rarely
                                     </label>
                                     <label class="radio-inline">
-                                      <input type="radio" name="optradio" value="4">Never
+                                      <input type="radio" name="cancerAdvocacy" value="4">Never
                                     </label>
                                 </div>
                               </div>
@@ -1272,16 +1276,16 @@
                                 <label class="control-label col-sm-4" for="diagnosticEquipment" >Acquisition of diagnostic equipment</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Frequently
+                                    <input type="radio" name="diagnosticEquipment" value="1">Frequently
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="diagnosticEquipment" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="diagnosticEquipment" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="diagnosticEquipment" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1290,16 +1294,16 @@
                                 <label class="control-label col-sm-4" for="cancerTreatment" >Cancer treatment</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Frequently
+                                    <input type="radio" name="cancerTreatment" value="1">Frequently
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="cancerTreatment" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="cancerTreatment" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="cancerTreatment" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1308,16 +1312,16 @@
                                 <label class="control-label col-sm-4" for="cancerSurveillance" >Cancer surveillance</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Frequently
+                                    <input type="radio" name="cancerSurveillance" value="1">Frequently
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="cancerSurveillance" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="cancerSurveillance" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="cancerSurveillance" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1326,16 +1330,16 @@
                                 <label class="control-label col-sm-4" for="cancerResearch" >Research on cancer</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Frequently
+                                    <input type="radio" name="cancerResearch" value="1">Frequently
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="cancerResearch" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="cancerResearch" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="cancerResearch" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1344,16 +1348,16 @@
                                 <label class="control-label col-sm-4" for="strengtheningMngt" >Strengthening management of cancer programmes</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Frequently
+                                    <input type="radio" name="strengtheningMngt" value="1">Frequently
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="strengtheningMngt" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="strengtheningMngt" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="strengtheningMngt" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1362,16 +1366,16 @@
                                 <label class="control-label col-sm-4" for="lessonsLearnt" >Sharing lessons learnt</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Frequently
+                                    <input type="radio" name="lessonsLearnt" value="1">Frequently
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="lessonsLearnt" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="lessonsLearnt" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="lessonsLearnt" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1380,16 +1384,16 @@
                                 <label class="control-label col-sm-4" for="trainings" >Trainings</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Frequently
+                                    <input type="radio" name="trainings" value="1">Frequently
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="trainings" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="trainings" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="trainings" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1398,16 +1402,16 @@
                                 <label class="control-label col-sm-4" for="workshops" >Workshops</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Frequently
+                                    <input type="radio" name="workshops" value="1">Frequently
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="workshops" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="workshops" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="workshops" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1416,16 +1420,16 @@
                                 <label class="control-label col-sm-4" for="conferences" >Conferences</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Frequently
+                                    <input type="radio" name="conferences" value="1">Frequently
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="conferences" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="conferences" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="conferences" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1449,16 +1453,16 @@
                                 <label class="control-label col-sm-4" for="programmeAssessment" >The programme carries out assessments to identify staff needs for capacity building</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">All the time
+                                    <input type="radio" name="programmeAssessment" value="1">All the time
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="programmeAssessment" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="programmeAssessment" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="programmeAssessment" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1467,16 +1471,16 @@
                                 <label class="control-label col-sm-4" for="assessmentIdentification" >The programme carries out assessments to identify needs for supplies and equipment for cancer screening, management and palliative care</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">All the time
+                                    <input type="radio" name="assessmentIdentification" value="1">All the time
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="assessmentIdentification" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="assessmentIdentification" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="assessmentIdentification" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1485,16 +1489,16 @@
                                 <label class="control-label col-sm-4" for="programmeDocuments" >The programme documents data and keeps all programme records safely and securely</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">All the time
+                                    <input type="radio" name="programmeDocuments" value="1">All the time
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="programmeDocuments" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="programmeDocuments" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="programmeDocuments" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1503,16 +1507,16 @@
                                 <label class="control-label col-sm-4" for="identifyGaps" >The programme carries out assessments to identify gaps in programme implementation for improvement</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">All the time
+                                    <input type="radio" name="identifyGaps" value="1">All the time
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="identifyGaps" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="identifyGaps" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="identifyGaps" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1521,16 +1525,16 @@
                                 <label class="control-label col-sm-4" for="progressMonitor" >The programme monitors the progress of cancer activities to ensure they are on track</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">All the time
+                                    <input type="radio" name="progressMonitor" value="1">All the time
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="progressMonitor" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="progressMonitor" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="progressMonitor" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1539,16 +1543,16 @@
                                 <label class="control-label col-sm-4" for="periodicallyEvaluation" >The programme periodically evaluates cancer activities against planned goals/objectives </label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">All the time
+                                    <input type="radio" name="periodicallyEvaluation" value="1">All the time
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="periodicallyEvaluation" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="periodicallyEvaluation" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="periodicallyEvaluation" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1557,16 +1561,16 @@
                                 <label class="control-label col-sm-4" for="dataGenerated" >The programme uses data generated from its activities to feedback into programme implementation</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">All the time
+                                    <input type="radio" name="dataGenerated" value="1">All the time
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="dataGenerated" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="dataGenerated" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="dataGenerated" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1575,16 +1579,16 @@
                                 <label class="control-label col-sm-4" for="programmeLessons" >The programme uses lessons learnt from implementation of cancer activities to improve internal practices</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">All the time
+                                    <input type="radio" name="programmeLessons" value="1">All the time
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="programmeLessons" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="programmeLessons" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="programmeLessons" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1593,16 +1597,16 @@
                                 <label class="control-label col-sm-4" for="shareLessons" >The programme shares lessons learnt from implementation of cancer activities with other partners to help improve their implementation procedure</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">All the time
+                                    <input type="radio" name="shareLessons" value="1">All the time
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Sometimes
+                                    <input type="radio" name="shareLessons" value="2">Sometimes
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">Rarely
+                                    <input type="radio" name="shareLessons" value="3">Rarely
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="4">Never
+                                    <input type="radio" name="shareLessons" value="4">Never
                                   </label>
                                 </div>
                               </div>
@@ -1627,13 +1631,13 @@
                                 <label class="control-label col-sm-4" for="behaviorAwareness" >Awareness for behavior change in cancer prevention</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="behaviorAwareness" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="behaviorAwareness" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="behaviorAwareness" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
@@ -1642,13 +1646,13 @@
                                 <label class="control-label col-sm-4" for="uptakeScreening" >Awareness for uptake of screening for early detection of cancer</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="uptakeScreening" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="uptakeScreening" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="uptakeScreening" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
@@ -1657,13 +1661,13 @@
                                 <label class="control-label col-sm-4" for="breastScreening" >Screening of breast cancer</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="breastScreening" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="breastScreening" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="breastScreening" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
@@ -1672,13 +1676,13 @@
                                 <label class="control-label col-sm-4" for="cervicalScreening" >Screening of cervical cancer</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="cervicalScreening" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="cervicalScreening" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="cervicalScreening" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
@@ -1687,13 +1691,13 @@
                                 <label class="control-label col-sm-4" for="prostateScreening" >Screening of prostate cancer</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="prostateScreening" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="prostateScreening" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="prostateScreening" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
@@ -1702,59 +1706,59 @@
                                 <label class="control-label col-sm-4" for="diagnosticServices" >Diagnostic services </label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="diagnosticServices" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="diagnosticServices" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
-                                  </label>
-                                </div>
-                              </div>
-
-                              <div class="form-group">
-                                <label class="control-label col-sm-4" for="breastTreatment" >Treatment of breast cancer</label>
-                                <div class="col-sm-8">
-                                  <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
-                                  </label>
-                                  <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
-                                  </label>
-                                  <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="diagnosticServices" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
 
                               <div class="form-group">
-                                <label class="control-label col-sm-4" for="cervicalTreatment" >Treatment of cervical cancer</label>
+                                <label class="control-label col-sm-4" for="breastCancerTreatment" >Treatment of breast cancer</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="breastCancerTreatment" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="breastCancerTreatment" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="breastCancerTreatment" value="3">No component of policy recommendations implemented
+                                  </label>
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-sm-4" for="cervicalCancerTreatment" >Treatment of cervical cancer</label>
+                                <div class="col-sm-8">
+                                  <label class="radio-inline">
+                                    <input type="radio" name="cervicalCancerTreatment" value="1">Full implementation as outlined in the policy
+                                  </label>
+                                  <label class="radio-inline">
+                                    <input type="radio" name="cervicalCancerTreatment" value="2">Some component of policy recommendations implemented
+                                  </label>
+                                  <label class="radio-inline">
+                                    <input type="radio" name="cervicalCancerTreatment" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                                 </div>
 
 
                               <div class="form-group">
-                                <label class="control-label col-sm-4" for="prostateTreatment" >Treatment of prostate cancer</label>
+                                <label class="control-label col-sm-4" for="prostateCancerTreatment" >Treatment of prostate cancer</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="prostateCancerTreatment" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="prostateCancerTreatment" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="prostateCancerTreatment" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
@@ -1763,13 +1767,13 @@
                                 <label class="control-label col-sm-4" for="painRelief" >Pain relief and palliative care at facility level</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="painRelief" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="painRelief" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="painRelief" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
@@ -1778,13 +1782,13 @@
                                 <label class="control-label col-sm-4" for="painReliefCommunity" >Pain relief and palliate care at community level by facility nurses</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="painReliefCommunity" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="painReliefCommunity" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="painReliefCommunity" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
@@ -1793,43 +1797,43 @@
                                 <label class="control-label col-sm-4" for="healthUnits" >Pain relief and palliate care at community level by community health units</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="healthUnits" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="healthUnits" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
-                                  </label>
-                                </div>
-                              </div>
-
-                              <div class="form-group">
-                                <label class="control-label col-sm-4" for="survailanceParticipation" >Participation in cancer surveillance</label>
-                                <div class="col-sm-8">
-                                  <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
-                                  </label>
-                                  <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
-                                  </label>
-                                  <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="healthUnits" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
 
                               <div class="form-group">
-                                <label class="control-label col-sm-4" for="cancerResearch" >Participation in cancer research</label>
+                                <label class="control-label col-sm-4" for="surveilanceParticipation" >Participation in cancer surveillance</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="surveilanceParticipation" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="surveilanceParticipation" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="surveilanceParticipation" value="3">No component of policy recommendations implemented
+                                  </label>
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="control-label col-sm-4" for="researchParticipation" >Participation in cancer research</label>
+                                <div class="col-sm-8">
+                                  <label class="radio-inline">
+                                    <input type="radio" name="researchParticipation" value="1">Full implementation as outlined in the policy
+                                  </label>
+                                  <label class="radio-inline">
+                                    <input type="radio" name="researchParticipation" value="2">Some component of policy recommendations implemented
+                                  </label>
+                                  <label class="radio-inline">
+                                    <input type="radio" name="researchParticipation" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>
@@ -1838,13 +1842,13 @@
                                 <label class="control-label col-sm-4" for="monitoringEvaluation" >Monitoring and evaluation practices</label>
                                 <div class="col-sm-8">
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="1">Full implementation as outlined in the policy
+                                    <input type="radio" name="monitoringEvaluation" value="1">Full implementation as outlined in the policy
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="2">Some component of policy recommendations implemented
+                                    <input type="radio" name="monitoringEvaluation" value="2">Some component of policy recommendations implemented
                                   </label>
                                   <label class="radio-inline">
-                                    <input type="radio" name="optradio" value="3">No component of policy recommendations implemented
+                                    <input type="radio" name="monitoringEvaluation" value="3">No component of policy recommendations implemented
                                   </label>
                                 </div>
                               </div>

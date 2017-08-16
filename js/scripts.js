@@ -6,6 +6,15 @@
 $(document).ready(function(){
   $('a[title]').tooltip();
 
+  $('#areaOfSpecialization').on('change',function(){
+        if( $(this).val()==="7"){
+        $("#otherType").show()
+        }
+        else{
+        $("#otherType").hide()
+        }
+    });
+
 
 submitForms = function(){
     document.getElementById("section0").submit();
@@ -19,8 +28,9 @@ submitForms = function(){
 }
 $('#mainForm').submit(function(e){
   e.preventDefault();
-data= $(this).serializeArray();
-
-console.log(data)
+var data= $(this).serialize();
+$.post("form.php",{data:data}, function(data){
+        console.log(data);
+    });
 });
 });
