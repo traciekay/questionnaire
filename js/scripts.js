@@ -34,6 +34,8 @@ $(document).ready(function(){
       onChangePalliativeCareDate();
       onChangeOtherDate();
       onChangeTraining();
+      onChangeCollaboration();
+      onChangeReferral();
 
 
 submitForms = function(){
@@ -156,6 +158,28 @@ function onChangeTraining(){
         }
         else{
         $("#trainingLevel,#trainingPlace,#trainingDecision,#trainingCost,#trainingSource").hide()
+        }
+    });
+}
+
+function onChangeCollaboration(){
+  $('#facilityNetwork').on('change',function(){
+        if( $(this).val()==="1"){
+        $("#collaborationNature,#frequentlyNetwork,#organizationCollaborating,#collaborationFunding").show()
+        }
+        else{
+        $("#collaborationNature,#frequentlyNetwork,#organizationCollaborating,#collaborationFunding").hide()
+        }
+    });
+}
+
+function onChangeReferral(){
+  $('#experienceCases').on('change',function(){
+        if( $(this).val()==="1"){
+        $("#experienceFrequency,#facilitiesReferral,#servicesOffered").show()
+        }
+        else{
+        $("#experienceFrequency,#facilitiesReferral,#servicesOffered").hide()
         }
     });
 }
