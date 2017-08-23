@@ -254,3 +254,7 @@ padding-top: 36px;
   font-family: 'Droid Serif', serif;
       font-size: large;
 }
+
+#otherType, otherCollaboType{
+  padding-top: 13px;
+}

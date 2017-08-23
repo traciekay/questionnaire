@@ -15,6 +15,25 @@ $(document).ready(function(){
         }
     });
 
+    $('#collaborationNature').on('change',function(){
+          if( $(this).val()==="5"){
+          $("#otherCollaboType").show()
+          }
+          else{
+          $("#otherCollaboType").hide()
+          }
+      });
+
+      onChangeScreeningDate();
+      onChangeColposcopyDate();
+      onChangeCryotherapyDate();
+      onChangeHistologyLabDate();
+      onChangeLeepDate();
+      onChangeTrainingDate();
+      onChangeCancerTherapyDate();
+      onChangePalliativeCareDate();
+      onChangeOtherDate();
+      
 
 submitForms = function(){
     document.getElementById("section0").submit();
@@ -34,3 +53,102 @@ $.post("form.php",{data:data}, function(data){
     });
 });
 });
+
+function onChangeScreeningDate() {
+  $('#facilityScreening').on('change',function(){
+     if($(this).is(":checked")){
+       alert('checked');
+        $("#screeningDate").show();
+      } else{
+        alert('not checked');
+        $("#screeningDate").hide();
+      }
+  });
+}
+
+function onChangeColposcopyDate(){
+  $('#facilityColposcopy').on('change',function(){
+        if($(this).is(":checked")){
+        $("#colposcopyDate").show()
+        }
+        else{
+        $("#colposcopyDate").hide()
+        }
+    });
+}
+
+function onChangeCryotherapyDate(){
+  $('#facilityCryotherapy').on('change',function(){
+     if($(this).is(":checked")){
+       alert('checked');
+        $("#cryotherapyDate").show();
+      } else{
+        alert('not checked');
+        $("#cryotherapyDate").hide();
+      }
+  });
+}
+
+function onChangeHistologyLabDate(){
+  $('#facilityHistologyLab').on('change',function(){
+        if($(this).is(":checked")){
+        $("#histologyDate").show()
+        }
+        else{
+        $("#histologyDate").hide()
+        }
+    });
+}
+function onChangeLeepDate(){
+  $('#facilityLeep').on('change',function(){
+        if($(this).is(":checked")){
+        $("#leepDate").show()
+        }
+        else{
+        $("#leepDate").hide()
+        }
+    });
+}
+
+function onChangeTrainingDate(){
+  $('#facilityTraining').on('change',function(){
+        if($(this).is(":checked")){
+        $("#trainingDate").show()
+        }
+        else{
+        $("#trainingDate").hide()
+        }
+    });
+}
+
+function onChangeCancerTherapyDate(){
+  $('#facilityCancerTherapy').on('change',function(){
+        if($(this).is(":checked")){
+        $("#therapyDate").show()
+        }
+        else{
+        $("#therapyDate").hide()
+        }
+    });
+}
+
+function onChangePalliativeCareDate(){
+  $('#facilityPalliativeCare').on('change',function(){
+        if($(this).is(":checked")){
+        $("#palliativeDate").show()
+        }
+        else{
+        $("#palliativeDate").hide()
+        }
+    });
+}
+function onChangeOtherDate(){
+  $('#facilityOther').on('change',function(){
+        if($(this).is(":checked")){
+        $("#otherDate").show()
+        }
+        else{
+        $("#otherDate").hide()
+        }
+    });
+}

@@ -157,7 +157,7 @@
                                       <option value="7">Other</option>
                                     </select>
                                     <div id="otherType" style="display:none;">
-                                      <label for="specify">Specify</label>
+                                      <label for="specify"></label>
                                       <input type="text" name="specializationOther" placeholder="Specify"/>
                                     </div>
                                   </div>
@@ -173,7 +173,6 @@
                                       <option value="5">11-15 </option>
                                       <option value="6">16-20 </option>
                                       <option value="7">>20 </option>
-                                      <option value="8"><1 </option>
                                     </select>
                                   </div>
                                 </div>
@@ -192,112 +191,119 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="typeOfCancer" >What types of cancers are managed from your facility?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="typeOfCancer" name="typeOfCancer">
-                                      <option value="1">Breast cancer </option>
-                                      <option value="2">Cervical cancer </option>
-                                      <option value="3">Prostate cancer </option>
-                                      <option value="4">Other (Specify)</option>
-                                    </select>
+                                    <label class="checkbox-inline"><input type="checkbox" name="manageBreastCancer" value="1">Breast cancer</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="manageCervicalCancer" value="2">Cervical cancer</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="manageProstateCancer" value="3">Cervical cancer</label>
+                                    <input type="text" name="manageOtherCancer" placeholder="Specify">
                                   </div>
                                 </div>
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="cancerFacilities" >What kind of cancer facilities does your institution offer?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="cancerFacilities" name="cancerFacilities">
-                                      <option value="1">Screening </option>
-                                      <option value="2">Colposcopy </option>
-                                      <option value="3">Cryotherapy </option>
-                                      <option value="4">Histology lab </option>
-                                      <option value="5">LEEP </option>
-                                      <option value="6">Training </option>
-                                      <option value="7">Cancer therapy </option>
-                                      <option value="8">Palliative care </option>
-                                      <option value="9">Other </option>
-                                    </select>
+                                    <label class="checkbox-inline"><input type="checkbox" name="facilityScreening" id="facilityScreening" value="1">Screening</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="facilityColposcopy" id="facilityColposcopy" value="2">Colposcopy</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="facilityCryotherapy" id="facilityCryotherapy" value="3">Cryotherapy</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="facilityHistologyLab" id="facilityHistologyLab" value="4">Histology lab</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="facilityLeep" id="facilityLeep" value="5">LEEP</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="facilityTraining" id="facilityTraining" value="6">Training</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="facilityCancerTherapy" id="facilityCancerTherapy" value="7">Cancer therapy</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="facilityPalliativeCare" id="facilityPalliativeCare" value="8">Palliative care</label>
+                                    <input type="text" name="facilityOther" placeholder="Specify" id="facilityOther">
+
                                   </div>
                                 </div>
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="facilityEstablished" >When was/were the facility(ies) established?</label>
                                   <div class="col-sm-8">
-                                    <fieldset>
-                                      Screening <input type="date" class="form-control" name="screeningDate" id="screeningDate" placeholder="Screening"><br>
-                                      Colposcopy<input type="date" class="form-control" name="colposcopyDate" id="colposcopyDate" placeholder="Colposcopy"><br>
-                                      Cryotherapy<input type="date" class="form-control" name="cryotherapyDate" id="cryotherapyDate" placeholder="Cryotherapy"><br>
-                                      Histology lab<input type="date" class="form-control" name="histologyDate" id="histologyDate" placeholder="Histology lab"><br>
-                                      LEEP<input type="date" class="form-control" name="leepDate" id="leepDate" placeholder="LEEP"><br>
-                                      Training<input type="date" class="form-control" name="trainingDate" id="trainingDate" placeholder="Training"><br>
-                                      Cancer therapy<input type="date" class="form-control" name="therapyDate" id="therapyDate" placeholder="Cancer therapy"><br>
-                                      Other<input type="date" class="form-control" name="otherDate" id="otherDate" placeholder="Other"><br>
-                                      Palliative care<input type="date" class="form-control" name="palliativeDate" id="palliativeDate" placeholder="Palliative care">
+                                    <fieldset >
+                                      <div id="screeningDate">
+                                        Screening <input type="date" class="form-control" name="screeningDate"  placeholder="Screening"><br>
+                                      </div>
+                                      <div  id="colposcopyDate">
+                                        Colposcopy<input type="date" class="form-control" name="colposcopyDate" placeholder="Colposcopy"><br>
+                                      </div>
+                                      <div id="cryotherapyDate">
+                                        Cryotherapy<input type="date" class="form-control" name="cryotherapyDate"  placeholder="Cryotherapy"><br>
+                                      </div>
+                                      <div  id="histologyDate">
+                                        Histology lab<input type="date" class="form-control" name="histologyDate" placeholder="Histology lab"><br>
+                                      </div>
+                                      <div  id="leepDate">
+                                        LEEP<input type="date" class="form-control" name="leepDate" placeholder="LEEP"><br>
+                                      </div>
+                                      <div id="trainingDate">
+                                        Training<input type="date" class="form-control" name="trainingDate"  placeholder="Training"><br>
+                                      </div>
+                                      <div id="therapyDate">
+                                        Cancer therapy<input type="date" class="form-control" name="therapyDate"  placeholder="Cancer therapy"><br>
+                                      </div>
+                                      <div id="palliativeDate">
+                                        Palliative care<input type="date" class="form-control" name="palliativeDate"  placeholder="Palliative care">
+                                      </div>
+                                      <div  id="otherDate">
+                                        Other<input type="date" class="form-control" name="otherDate" placeholder="Other"><br>
+                                      </div>
+
                                     </fieldset>
                                   </div>
                                 </div>
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="screeningMethods" >What kind of screening methods do you use?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="screeningMethods" name="screeningMethods">
-                                      <option value="1">VIA   </option>
-                                      <option value="2">VILI  </option>
-                                      <option value="3">Cytology Conventional Pap smear</option>
-                                      <option value="4">HPV testing </option>
-                                      <option value="5">Clinical breast examination </option>
-                                      <option value="6">Mammography</option>
-                                      <option value="7">Ultrasound scanning</option>
-                                      <option value="8">Digital Rectal Examination</option>
-                                      <option value="9">Prostate Specific Antigen</option>
-                                      <option value="10">Trans-rectal ultra-sonography</option>
-                                      <option value="11">Other</option>
-                                    </select>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningMethodVia" value="1">VIA</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningMethodVili" value="2">VILI</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningMethodCytology" value="3">Cytology Conventional Pap smear</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningMethodHpv" value="4">HPV testing</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningMethodClinicalBreast" value="5">Clinical breast examination</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningMethodMammography" value="6">Mammography</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningMethodUltrasound" value="7">Ultrasound scanning</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningMethodDigitalRectal" value="8">Digital Rectal Examination</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningMethodProstate" value="9">Prostate Specific Antigen</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningMethodTransRectal" value="10">Trans-rectal ultra-sonography</label>
+                                    <input type="text" name="screeningMethodOther" placeholder="Specify">
+
                                   </div>
                                 </div>
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="equipmentSource" >What is the source of the equipment used for cancer screening?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="equipmentSource" name="equipmentSource">
-                                      <option value="1">Government</option>
-                                      <option value="2">Hospital funds</option>
-                                      <option value="3">Hospital partners/collaborators</option>
-                                      <option value="4">Other organization within Kenya </option>
-                                      <option value="5">Other organization outside Kenya </option>
-                                      <option value="6">Other 6</option>
-                                    </select>
+                                    <label class="checkbox-inline"><input type="checkbox" name="equipSourceGovernment" value="1">Government</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="equipSourceHopitalFunds" value="2">Hospital funds</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="equipSourceHospitalPatners" value="3">Hospital partners/collaborators</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="equipSourceOtherKenyanOrg" value="4">Other organization within Kenya</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="equipSourceOutsideKenya" value="5">Other organization outside Kenya</label>
+                                    <input type="text" name="equipSourceOther" placeholder="Other">
                                   </div>
                                 </div>
 
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="roomsAllocated" >Do you have room(s) allocated specifically for the following cancer patient services?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="roomsAllocated" name="roomsAllocated">
-                                      <option value="1">Screening  </option>
-                                      <option value="2">Treatment  </option>
-                                      <option value="3">Counselling </option>
-                                      <option value="4">Palliative care </option>
-                                      <option value="5">No specific rooms allocated </option>
-                                    </select>
+                                    <label class="checkbox-inline"><input type="checkbox" name="screeningRoom" value="1">Screening</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="treatmentRoom" value="2">Treatment</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="counsellingRoom" value="3">Counselling</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="palliativecareRoom" value="4">Palliative care</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="nospecificRoom" value="5">No specific rooms allocated</label>
                                   </div>
                                 </div>
 
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="drugsStock" >Does your facility stock drugs for the following cancer patient care?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="drugsStock" name="drugsStock">
-                                      <option value="1">Treatment</option>
-                                      <option value="2">Palliative care</option>
-                                    </select>
+                                    <label class="checkbox-inline"><input type="checkbox" name="stockTreatmentDrugs" value="1">Treatment</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="stockPalliativeDrugs" value="2">Palliative care</label>
                                   </div>
                                 </div>
 
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="drugsSource" >What is the source of the drugs?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="drugsSource" name="drugsSource">
-                                      <option value="1">Government </option>
-                                      <option value="2">Hospital funds </option>
-                                      <option value="3">Hospital partners/collaborators</option>
-                                      <option value="4">Other organization within Kenya </option>
-                                      <option value="5">Other organization outside Kenya </option>
-                                      <option value="6">Other</option>
-                                    </select>
+                                    <label class="checkbox-inline"><input type="checkbox" name="drugSourceGov" value="1">Government</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="drugSourceHospFunds" value="2">Hospital funds</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="drugSourceHosPartners" value="3">Hospital partners/collaborators</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="drugSourceOtherKenyaOrg" value="4">Other organization within Kenya</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="drugSourceOutsideKenya" value="5">Other organization outside Kenya</label>
+                                    <input type="text" name="otherDrugSource" placeholder="Other">
                                   </div>
                                 </div>
                                 <h3 class="sectionHead">For the following questions, kindly indicate how much you agree with each statement (1=Strongly Agree, 2=Agree, 3=Neutral/no opinion, 4=Disagree, 5=Strongly Disagree)</h3>
@@ -549,33 +555,28 @@
                                   <div class="form-group">
                                     <label class="control-label col-sm-4" for="communicateInformation" >How does the programme/facility communicate information on cancer to the public?(Mark all that apply)</label>
                                     <div class="col-sm-8">
-                                      <select multiple class="form-control" id="communicateInformation" name="communicateInformation">
-                                        <option value="1">One to one education at the facility  </option>
-                                        <option value="2">Group education at the facility   </option>
-                                        <option value="3">Community outreach programmes   </option>
-                                        <option value="4">One to one at the community   </option>
-                                        <option value="5">Group education at the community   </option>
-                                        <option value="6">Mass media through radio   </option>
-                                        <option value="7">Mass media through television   </option>
-                                        <option value="8">Mass media through prints   </option>
-                                        <option value="9">Use of social networks   </option>
-                                        <option value="10">Mass media through radio   </option>
-                                      </select>
+                                      <label class="checkbox-inline"><input type="checkbox" name="oneatFacility" value="1">One to one education at the facility </label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="groupatFacility" value="2">Group education at the facility</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="communityOutreach" value="3">Community outreach programmes</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="oneatCommunity" value="4">One to one at the community</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="groupatCommunity" value="5">Group education at the community</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="massMediaRadio" value="6">Mass media through radio</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="massMediaTV" value="7">Mass media through television</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="massMediaPrints" value="8">Mass media through prints</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="socialNetworks" value="9">Use of social networks</label>
                                     </div>
                                   </div>
 
                                   <div class="form-group">
                                     <label class="control-label col-sm-4" for="communicationStrategies" >How are your communication strategies funded?(Mark all that apply)</label>
                                     <div class="col-sm-8">
-                                      <select multiple class="form-control" id="communicationStrategies" name="communicationStrategies">
-                                        <option value="1">County Government  </option>
-                                        <option value="2">National Government  </option>
-                                        <option value="3">Hospital funds  </option>
-                                        <option value="4">Hospital partners/collaborators   </option>
-                                        <option value="4">Other organization within Kenya  </option>
-                                        <option value="6">Other organization outside Kenya  </option>
-                                        <option value="6">Other </option>
-                                      </select>
+                                      <label class="checkbox-inline"><input type="checkbox" name="countyGovFund" value="1">County Government </label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="nationalGovFund" value="2">National Government</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="hospFund" value="3">Hospital funds</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="patnersFund" value="4">Hospital partners/collaborators </label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="otherKenyanFund" value="5">Other organization within Kenya</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="OutsideKenyaFund" value="6">Other organization outside Kenya</label>
+                                      <input type="text" name="otherFunds" value="" placeholder="Other">
                                     </div>
                                   </div>
                                   <h3 class="sectionHead">Which of the following statements reflect on the health promotion strategy used by your programme/facility?(1=frequently used, 2=rarely used, 3=not used)</h3>
@@ -775,11 +776,9 @@
                                   <div class="form-group">
                                     <label class="control-label col-sm-4" for="trainingDecision" >Why did you decide to get the training?</label>
                                     <div class="col-sm-8">
-                                      <select class="form-control" id="trainingDecision" name="trainingDecision">
-                                        <option value="1">I was nominated by my institution </option>
-                                        <option value="2">I had an interest in oncology  </option>
-                                        <option value="3">Other </option>
-                                      </select>
+                                      <label class="checkbox-inline"><input type="checkbox" name="nominated" value="1">I was nominated by my institution</label>
+                                      <label class="checkbox-inline"><input type="checkbox" name="oncologyInterest" value="2">I had an interest in oncology</label>
+                                      <input type="text" name="otherTrainingReason"  placeholder="Other">
                                     </div>
                                   </div>
 
@@ -1143,6 +1142,10 @@
                                     <option value="4">Carry out researches together   </option>
                                     <option value="5">Other  </option>
                                   </select>
+                                  <div id="otherCollaboType" style="display:none;">
+                                    <label for="specify"></label>
+                                    <input type="text" name="collaboNatureOther" placeholder="Specify"/>
+                                  </div>
                                 </div>
                               </div>
 
@@ -1162,27 +1165,23 @@
                               <div class="form-group">
                                 <label class="control-label col-sm-4" for="organizationCollaborating" >What types of organizations/institutions do you collaborate with?</label>
                                 <div class="col-sm-8">
-                                  <select class="form-control" id="organizationCollaborating" name="organizationCollaborating">
-                                    <option value="1">Other government health facilities  </option>
-                                    <option value="2">Private health institutions  </option>
-                                    <option value="3">Government research institutions  </option>
-                                    <option value="4">Non-governmental research institutions  </option>
-                                    <option value="5">Other organization within the country (non-research)  </option>
-                                    <option value="6">Other organization outside the country (non-research)  </option>
-                                    <option value="7">Other </option>
-                                  </select>
+                                  <label class="checkbox-inline"><input type="checkbox" name="govCollabo" value="1">Other government health facilities</label>
+                                  <label class="checkbox-inline"><input type="checkbox" name="privateCollabo" value="2">Private health institutions</label>
+                                  <label class="checkbox-inline"><input type="checkbox" name="govResearchCollabo" value="3">Government research institutions</label>
+                                  <label class="checkbox-inline"><input type="checkbox" name="ngoCollabo" value="4">Non-governmental research institutions</label>
+                                  <label class="checkbox-inline"><input type="checkbox" name="orgInCountryCollabo" value="5">Other organization within the country (non-research)</label>
+                                  <label class="checkbox-inline"><input type="checkbox" name="orgOutsideCollabo" value="6">Other organization outside the country (non-research)</label>
+                                  <input type="text" name="otherCollabo"  placeholder="Other">
                                 </div>
                               </div>
 
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="collaborationFunding" >Who funds the collaboration?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="collaborationFunding" name="collaborationFunding">
-                                      <option value="1">Health facility management  </option>
-                                      <option value="2">Other members of the network   </option>
-                                      <option value="3">Cost sharing  </option>
-                                      <option value="4">Other organization not part of the network  </option>
-                                    </select>
+                                    <label class="checkbox-inline"><input type="checkbox" name="management" value="1">Health facility management</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="otherNetMembers" value="2">Other members of the network</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="costSharing" value="3">Cost sharing</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="otherOrg" value="4">Other organization not part of the network</label>
                                   </div>
                                 </div>
 
@@ -1211,26 +1210,24 @@
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="facilitiesReferral" >To which facilities do you refer your patients?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="facilitiesReferral" name="facilitiesReferral">
-                                      <option value="1">Kenyatta National Hospital  </option>
-                                      <option value="2">Moi Teaching & Referral Hospital   </option>
-                                      <option value="3">Jaramogi Odinga Teaching & Referral Hospital  </option>
-                                      <option value="4">Agakhan Hospital Kisumu  </option>
-                                      <option value="5">Agakhan Hospital Nairobi  </option>
-                                      <option value="6">Other  </option>
-                                    </select>
+                                    <label class="checkbox-inline"><input type="checkbox" name="refferKNH" value="1">Kenyatta National Hospital</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="refferMoi" value="2">Moi Teaching & Referral Hospital</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="refferJOOTRH" value="3">Jaramogi Odinga Teaching & Referral Hospital</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="refferAgaKhanKsm" value="4">Agakhan Hospital Kisumu</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="refferAgaKhanNai" value="5">Agakhan Hospital Nairobi </label>
+                                    <input type="text" name="refferOther"  placeholder="Other">
+
                                   </div>
                                 </div>
 
                                 <div class="form-group">
                                   <label class="control-label col-sm-4" for="servicesOffered" >What type of services do you mostly make referrals for?</label>
                                   <div class="col-sm-8">
-                                    <select class="form-control" id="servicesOffered" name="servicesOffered">
-                                      <option value="1">Advanced screening  </option>
-                                      <option value="2">Diagnosis  </option>
-                                      <option value="3">Treatment  </option>
-                                      <option value="4">Palliative care  </option>
-                                    </select>
+                                    <label class="checkbox-inline"><input type="checkbox" name="advancedScr" value="1">Advanced screening</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="diagnosis" value="2">Diagnosis</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="treatment" value="3">Treatment</label>
+                                    <label class="checkbox-inline"><input type="checkbox" name="palliativeCare" value="4">Palliative care</label>
+
                                   </div>
                                 </div>
 
