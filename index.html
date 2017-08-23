@@ -212,7 +212,7 @@
 
                                   </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group dates">
                                   <label class="control-label col-sm-4" for="facilityEstablished" >When was/were the facility(ies) established?</label>
                                   <div class="col-sm-8">
                                     <fieldset >
@@ -742,7 +742,7 @@
                             <h3 class="head text-center">SECTION D: Human Capacity to Screen and Manage Cancer</h3>
                             <p class="narrow text-center">
 
-                                  <div class="form-group">
+                                  <div class="form-group" >
                                     <label class="control-label col-sm-4" for="specialTraining" >Do you have any special training in oncology?</label>
                                     <div class="col-sm-8">
                                       <select class="form-control" id="specialTraining" name="specialTraining">
@@ -752,10 +752,10 @@
                                     </div>
                                   </div>
 
-                                  <div class="form-group">
+                                  <div class="form-group"  id="trainingLevel">
                                     <label class="control-label col-sm-4" for="trainingLevel" >What was the level of the training</label>
                                     <div class="col-sm-8">
-                                      <select class="form-control" id="trainingLevel" name="trainingLevel">
+                                      <select class="form-control" name="trainingLevel">
                                         <option value="1">Short course/Certificate </option>
                                         <option value="2">Diploma  </option>
                                         <option value="3">Degree  </option>
@@ -766,14 +766,14 @@
                                     </div>
                                   </div>
 
-                                  <div class="form-group">
+                                  <div class="form-group" id="trainingPlace">
                                     <label class="control-label col-sm-4" for="trainingPlace" >Where did you get the training?</label>
                                     <div class="col-sm-8">
-                                        <input type="text" name="trainingPlace" value="" id="trainingPlace">
+                                        <input type="text" name="trainingPlace" value="" >
                                     </div>
                                   </div>
 
-                                  <div class="form-group">
+                                  <div class="form-group" id="trainingDecision">
                                     <label class="control-label col-sm-4" for="trainingDecision" >Why did you decide to get the training?</label>
                                     <div class="col-sm-8">
                                       <label class="checkbox-inline"><input type="checkbox" name="nominated" value="1">I was nominated by my institution</label>
@@ -782,17 +782,17 @@
                                     </div>
                                   </div>
 
-                                  <div class="form-group">
+                                  <div class="form-group" id="trainingCost">
                                     <label class="control-label col-sm-4" for="trainingCost" >How much did the training cost?</label>
                                     <div class="col-sm-8">
-                                        <input type="number" name="trainingCost" value="" id="trainingCost" name="trainingCost">
+                                        <input type="number" name="trainingCost" value=""  name="trainingCost">
                                     </div>
                                   </div>
 
-                                  <div class="form-group">
+                                  <div class="form-group" id="trainingSource">
                                     <label class="control-label col-sm-4" for="trainingSource" >Who met the cost of the training?</label>
                                     <div class="col-sm-8">
-                                      <select class="form-control" id="trainingSource" name="trainingSource">
+                                      <select class="form-control"  name="trainingSource">
                                         <option value="1">Paid for it myself    </option>
                                         <option value="2">Got a scholarship   </option>
                                         <option value="3">Was sponsored by my institution   </option>

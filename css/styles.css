@@ -255,6 +255,12 @@ padding-top: 36px;
       font-size: large;
 }
 
-#otherType, otherCollaboType{
+#otherType, #otherCollaboType{
   padding-top: 13px;
+}
+
+#screeningDate, #colposcopyDate,#cryotherapyDate,#histologyDate,
+#leepDate,#trainingDate,#therapyDate,#palliativeDate,#otherDate,
+#trainingLevel,#trainingPlace,#trainingDecision,#trainingCost,#trainingSource{
+  display: none;
 }

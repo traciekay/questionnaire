@@ -33,7 +33,8 @@ $(document).ready(function(){
       onChangeCancerTherapyDate();
       onChangePalliativeCareDate();
       onChangeOtherDate();
-      
+      onChangeTraining();
+
 
 submitForms = function(){
     document.getElementById("section0").submit();
@@ -57,10 +58,8 @@ $.post("form.php",{data:data}, function(data){
 function onChangeScreeningDate() {
   $('#facilityScreening').on('change',function(){
      if($(this).is(":checked")){
-       alert('checked');
         $("#screeningDate").show();
       } else{
-        alert('not checked');
         $("#screeningDate").hide();
       }
   });
@@ -80,10 +79,8 @@ function onChangeColposcopyDate(){
 function onChangeCryotherapyDate(){
   $('#facilityCryotherapy').on('change',function(){
      if($(this).is(":checked")){
-       alert('checked');
         $("#cryotherapyDate").show();
       } else{
-        alert('not checked');
         $("#cryotherapyDate").hide();
       }
   });
@@ -143,12 +140,22 @@ function onChangePalliativeCareDate(){
     });
 }
 function onChangeOtherDate(){
-  $('#facilityOther').on('change',function(){
-        if($(this).is(":checked")){
+  $('#facilityOther').on('click',function(){
+        if($(this).is("click")){
         $("#otherDate").show()
         }
         else{
         $("#otherDate").hide()
+        }
+    });
+}
+function onChangeTraining(){
+  $('#specialTraining').on('change',function(){
+        if( $(this).val()==="1"){
+        $("#trainingLevel,#trainingPlace,#trainingDecision,#trainingCost,#trainingSource").show()
+        }
+        else{
+        $("#trainingLevel,#trainingPlace,#trainingDecision,#trainingCost,#trainingSource").hide()
         }
     });
 }
